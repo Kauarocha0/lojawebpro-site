@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LojaWebPro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1a1a1a);
+      background-size: 600% 600%;
+      animation: gradientBG 8s ease infinite;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 30px 20px;
+    }
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      25% {background-position: 50% 100%;}
+      50% {background-position: 100% 50%;}
+      75% {background-position: 50% 0%;}
+      100% {background-position: 0% 50%;}
+    }
+    .card {
+      background: #121212cc;
+      padding: 40px;
+      border-radius: 16px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+      border: 1px solid #2d2d2d;
+    }
+    .logo {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #00e0ff;
+      margin-bottom: 10px;
+    }
+    .slogan {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #00e0ff;
+      color: #000;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      margin: 12px 0;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .button:hover {
+      background: #00bcd4;
+      transform: scale(1.03);
+    }
+    .button span {
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">LojaWebPro</div>
+    <div class="slogan">Sites de alto nível para lojas que querem vender todos os dias com presença online profissional.</div>
+
+    <a class="button" href="https://wa.me/559984951345?text=Olá%2C+quero+criar+um+site+pra+minha+loja">
+      <span>💬</span> Fale comigo pelo WhatsApp
+    </a>
+    <a class="button" href=" https://kauarocha0.github.io/meusite/ex007.html">
+      <span>🖥️</span> Ver modelo de site
+    </a>
+    <a class="button" href="https://kauarocha0.github.io/lojawebpro-como_funciona/comofunciona.html">
+      <span>📌</span> Como funciona o serviço
+    </a>
+    <a class="button" href="https://kauarocha0.github.io/depoimentos/">
+      <span>🗣️</span> Depoimentos de clientes
+    </a>
+  </div>
+</body>
+</html>
